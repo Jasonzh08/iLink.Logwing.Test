@@ -3,23 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logwing.iLnkTest.Web", "WebApplication1\Logwing.iLnkTest.Web.csproj", "{A43D6F47-6962-4C26-BBFC-D91F6BDDA63F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logwing.iLinkTest.Web", "WebApplication1\Logwing.iLinkTest.Web.csproj", "{A43D6F47-6962-4C26-BBFC-D91F6BDDA63F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1.Tests", "WebApplication1.Tests\WebApplication1.Tests.csproj", "{B963104B-4309-4857-8600-7776B774176B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logwing.iLnkTest.Repository", "Logwing.iLnkTest.Repository\Logwing.iLnkTest.Repository.csproj", "{6EA56146-1E70-4137-8263-2168202E075F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logwing.iLinkTest.Repository", "Logwing.iLnkTest.Repository\Logwing.iLinkTest.Repository.csproj", "{6EA56146-1E70-4137-8263-2168202E075F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logwing.iLnkTest.Bootstrapper", "Logwing.iLnkTest.Bootstrapper\Logwing.iLnkTest.Bootstrapper.csproj", "{67E1BA7B-4691-47F7-BCB7-1CFF2F4044AE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logwing.iLinkTest.Bootstrapper", "Logwing.iLnkTest.Bootstrapper\Logwing.iLinkTest.Bootstrapper.csproj", "{67E1BA7B-4691-47F7-BCB7-1CFF2F4044AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logwing.iLnkTest.Core", "Logwing.iLnkTest.Core\Logwing.iLnkTest.Core.csproj", "{1168C4B8-2F15-4929-84D1-046516767F1E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logwing.iLinkTest.Core", "Logwing.iLnkTest.Core\Logwing.iLinkTest.Core.csproj", "{1168C4B8-2F15-4929-84D1-046516767F1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logwing.iLnkTest.Infrastructure", "Logwing.iLnkTest.Infrastructure\Logwing.iLnkTest.Infrastructure.csproj", "{20715123-0166-4C57-8D50-9DEF152FB357}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logwing.iLinkTest.Infrastructure", "Logwing.iLnkTest.Infrastructure\Logwing.iLinkTest.Infrastructure.csproj", "{20715123-0166-4C57-8D50-9DEF152FB357}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logwing.iLnkTest.JobCenter", "Logwing.iLnkTest.JobCenter\Logwing.iLnkTest.JobCenter.csproj", "{EBA053BF-493F-4CC2-B417-1AD6008204F0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logwing.iLinkTest.JobCenter", "Logwing.iLnkTest.JobCenter\Logwing.iLinkTest.JobCenter.csproj", "{EBA053BF-493F-4CC2-B417-1AD6008204F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logwing.iLnkTest.Presentation", "Logwing.iLnkTest.Presentation\Logwing.iLnkTest.Presentation.csproj", "{998DB626-E91C-41A0-8B49-C28E3CF00EA0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logwing.iLinkTest.Presentation", "Logwing.iLnkTest.Presentation\Logwing.iLinkTest.Presentation.csproj", "{998DB626-E91C-41A0-8B49-C28E3CF00EA0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logwing.iLnkTest.Application", "Logwing.iLnkTest.Application\Logwing.iLnkTest.Application.csproj", "{2405F453-ADBC-46D6-8857-8161CAA8FA71}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logwing.iLinkTest.Application", "Logwing.iLnkTest.Application\Logwing.iLinkTest.Application.csproj", "{2405F453-ADBC-46D6-8857-8161CAA8FA71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logwing.iLinkTest.WebApi", "Logwing.iLinkTest.WebApi\Logwing.iLinkTest.WebApi.csproj", "{921264C2-D24B-48D2-8C6F-8B175231384D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{2405F453-ADBC-46D6-8857-8161CAA8FA71}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2405F453-ADBC-46D6-8857-8161CAA8FA71}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2405F453-ADBC-46D6-8857-8161CAA8FA71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{921264C2-D24B-48D2-8C6F-8B175231384D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{921264C2-D24B-48D2-8C6F-8B175231384D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{921264C2-D24B-48D2-8C6F-8B175231384D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{921264C2-D24B-48D2-8C6F-8B175231384D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
